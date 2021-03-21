@@ -1,0 +1,52 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.init-body {
+  background: #F7F9FC;
+  font-family: "Open Sans";
+}
+
+.panel {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px, rgba(0, 0, 0, 0.12) 0px 0px 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-image: initial;
+  margin: 3px;
+  background: #ffffff;
+  margin-bottom: 15px;
+}
+
+.panel-heading {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 3px 10px;
+  /* color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.03); */
+}
+
+.panel-title {
+  flex: 1 1 auto;
+  display: block;
+  text-align: center;
+}
+
+.panel-body {
+  padding: 10px;
+  display: block;
+}
